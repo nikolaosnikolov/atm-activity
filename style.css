@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+}
+
+#header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: antiquewhite;
+}
+
+#login {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 1.4rem;
+}
+
+#submit {
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: orange;
+    cursor: pointer;
+}
+
+#loader {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#total {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#mode-select {
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    height: 3rem;
+    width: 10rem;
+}
+
+#moneyForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+#actionContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
